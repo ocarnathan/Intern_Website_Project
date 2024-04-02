@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kinetic Home</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2b68d2ab24.js"
+            crossorigin="anonymous"></script>
+
+        <style>
+            nav {
+                height: 10vh;
+            }
+            section.main{
+                height: 30vh;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="bg-blue-600 text-white p-4">
+            This is a div with blue background and white text.
+          </div> -->
+        <!-- navbar -->
+        <!-- padding for x-axis(px) padding for y-axis(py) justify-between gives even space between first level children of this nav element-->
+        <nav class="flex justify-between items-center px-6 py-5">
+            <div>
+                <img src="/images/header/image.png" alt="kinetic logo"
+                    width="116" class="w-full">
+            </div>
+            <div class="text-3xl">
+                <a href class="px-2">The Company</a>
+                <a href class="px-2">The Services</a>
+                <a href class="px-2">The Blog</a>
+                <a href
+                    class="bg-blue-600 ml-3 rounded-lg py-3 px-4 text-white">Contact
+                    Us</a>
+            </div>
+        </nav>
+        <!-- main header  -->
+        <section
+            class="main flex items-center justify-center text-center bg-gray-200 text-9xl font-bold">
+            <h1>The Company</h1>
+
+        </section>
+        <!-- footer  -->
+        <footer
+            class="flex flex-row items-center justify-between border-t border-gray-300 p-5 text-3xl">
+            <div class="flex items-center ">
+                <img src="/images/header/image.png" alt="kinetic logo"
+                    width="116" class="w-full">
+                <i class="fa-brands fa-facebook text-blue-600 m-1"></i>
+                <i class="fa-brands fa-x-twitter text-blue-600 m-1"></i>
+                <i class="fa-brands fa-instagram text-blue-600 m-1"></i>
+                <i class="fa-brands fa-youtube text-blue-600 m-1"></i>
+                <i class="fa-brands fa-linkedin text-blue-600 m-1"></i>
+            </div>
+            <div><p class="text-gray-600 ">© 2024
+                    Kinetic Communications
+                    LLP <span>Privacy Policy</span></p></div>
+        </footer>
+    </body>
+</html>
