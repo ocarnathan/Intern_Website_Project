@@ -1,4 +1,97 @@
 
-.door-image {
-    height: 280px;
+/* ----------ALL PAGEs CSS-----------   */
+nav {
+    height: 88px;
+}
+footer {
+    height: 88px;
+    font-size: 16px;
+}
+
+
+/* ----------HOME PAGE CSS-----------   */
+/* Set a max-width of 1366px for the body */
+.home {
+    max-width: 1366px;
+    max-height: 1604px;
+    margin: 0 auto; /* Center the content horizontally */
+}
+.nav-link {
+    font-size: 14px;
+}
+.main-image {
+    height: 632px;
+    font-size: 60px;
+}
+.section-top {
+    height: 272px;
+}
+.split-image {
+    width: 555px;      
+    height: 272px;      
+}
+
+.split-text-header {
+    font-size: 36px;
+}
+.split-text {
+    font-size: 16px;
+}
+.split-text-button {
+    font-size: 15px;
+}
+.section {
+    width: 1173px;    
+}
+.card {
+    height: 236px;
+    width: 371px;
+}
+.card h2 {
+    font-size: 18px;
+}
+.card p {
+    font-size: 16px;
+}
+.card a {
+    font-size: 15px;
+}
+
+
+/* ----------COMPANY PAGE CSS-----------   */
+.company {
+    max-width: 1366px;
+    max-height: 1351px;
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+section.main {
+    height: 200px;
+    font-size: 48px;
+}
+section.split {
+    width: 1173px;
+}
+section.split h1{
+    font-size: 36px;
+}
+section.split p{
+    font-size: 16px;
+}
+.nav-link {
+    font-size: 14px;
+}
+.row {
+    height: 347px;
+}
+.row-2 {
+    height: 371px;
+}
+.row-1-image {
+    width: 555px;      
+    height: 371px;      
+}
+.row-2-image {
+    width: 555px;      
+    height: 371px;      
 }

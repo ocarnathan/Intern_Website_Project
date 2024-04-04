@@ -12,55 +12,122 @@
             crossorigin="anonymous"></script>
 
         <style>
-            nav {
-                height: 10vh;
-            }
-            section.main{
-                height: 30vh;
-            }
+
         </style>
     </head>
-    <body>
+    <body class="company">
         <!-- <div class="bg-blue-600 text-white p-4">
             This is a div with blue background and white text.
           </div> -->
         <!-- navbar -->
         <!-- padding for x-axis(px) padding for y-axis(py) justify-between gives even space between first level children of this nav element-->
         <nav class="flex justify-between items-center px-6 py-5">
-            <div>
+            <div class="text-lg">
                 <img src="/images/header/image.png" alt="kinetic logo"
-                    width="116" class="w-full">
+                    width="116">
             </div>
-            <div class="text-3xl">
-                <a href class="px-2">The Company</a>
-                <a href class="px-2">The Services</a>
-                <a href class="px-2">The Blog</a>
+            <div class>
+                <a href class="px-2 nav-link">The Company</a>
+                <a href class="px-2 nav-link">The Services</a>
+                <a href class="px-2 nav-link">The Blog</a>
                 <a href
-                    class="bg-blue-600 ml-3 rounded-lg py-3 px-4 text-white">Contact
+                    class="bg-blue-600 ml-3 rounded-lg py-2 px-3 text-white">Contact
                     Us</a>
             </div>
         </nav>
         <!-- main header  -->
         <section
-            class="main flex items-center justify-center text-center bg-gray-200 text-9xl font-bold">
+            class="main flex items-center justify-center text-center bg-gray-200 font-bold">
             <h1>The Company</h1>
-
+        </section>
+        <!-- split sections  -->
+        <section class="split mx-auto my-24">
+            <!-- split section 1 -->
+            <div class="flex row-1 bg-blue-200">
+                <div class="w-1/2 pb-0 bg-green-200">
+                    <h1 class="font-bold text-gray-900 leading-tight">Online
+                        Since
+                        1995</h1>
+                    <br>
+                    <p class="text-gray-600 pr-8">We make business
+                        better and faster with the web. Drawing on an acute
+                        understanding of technology, Kinetic helps companies
+                        realize the cost-saving and revenue-generating potential
+                        of shifting business processes online. From improving
+                        communication and collaboration to exploiting an all-new
+                        marketing channel, the Internet can and will
+                        fundamentally change the way businesses compete.</p>
+                    <br>
+                    <p class="text-gray-600 pr-8">We deliver websites
+                        and web-based applications to
+                        businesses established in their industries and some that
+                        recently hit the ground running. From banks to
+                        construction firms, non-profits to real estate brokers,
+                        we give immediate support to businesses as they commit
+                        to or continue using the Web.</p>
+                    <br>
+                </div>
+                <div
+                    class="w-1/2 h-1/2">
+                    <img
+                        class="border-1 rounded-xl row-1-image object-cover"
+                        src="/images/split/cube.png" alt="kinetic door">
+                </div>
+            </div>
+            <!-- split section 2 -->
+            <div class="flex row-2 bg-red-200 mt-20">
+                <div
+                    class="w-1/2 h-1/2">
+                    <img
+                        class="border-1 rounded-xl h-full w-full row-2-image object-cover"
+                        src="/images/split/sidewalk.png" alt="kinetic door">
+                </div>
+                <div class="w-1/2">
+                    <h1 class="font-bold text-gray-900 leading-tight">Our
+                        Partnership</h1>
+                    <br>
+                    <p class="text-gray-600">Our role in a
+                        partnership with you is to help you make the
+                        most effective choices for your business and quickly
+                        apply them to the Internet. We partner with
+                        clients to solve business problems such as inefficient,
+                        bureaucratic offline processes of communication.
+                        We also develop opportunites for collaboration - like
+                        developing a new sales channcel for unsold
+                        inventory. Ultilizing our core process, we deliver new
+                        efficiencies and fresh opportunities through
+                        solutions developed especially for you.
+                    </p>
+                    <br>
+                    <p class="text-gray-600">With our experience
+                        and knowledge, we'll identify your
+                        business issues, design a plan in response, build the
+                        solution, integrate appropiate technology, and provide
+                        timely updates whenever the latest technology advances
+                        can improve results for you.
+                    </p>
+                    <br>
+                </div>
+            </div>
         </section>
         <!-- footer  -->
         <footer
-            class="flex flex-row items-center justify-between border-t border-gray-300 p-5 text-3xl">
-            <div class="flex items-center ">
+            class="flex flex-row items-center justify-between border-t border-gray-300 p-5">
+            <div class="flex items-center "">
                 <img src="/images/header/image.png" alt="kinetic logo"
-                    width="116" class="w-full">
-                <i class="fa-brands fa-facebook text-blue-600 m-1"></i>
-                <i class="fa-brands fa-x-twitter text-blue-600 m-1"></i>
-                <i class="fa-brands fa-instagram text-blue-600 m-1"></i>
-                <i class="fa-brands fa-youtube text-blue-600 m-1"></i>
-                <i class="fa-brands fa-linkedin text-blue-600 m-1"></i>
+                    width="116">
+                <div class="text-blue-600 m-3 space-x-1">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
             </div>
-            <div><p class="text-gray-600 ">© 2024
-                    Kinetic Communications
-                    LLP <span>Privacy Policy</span></p></div>
+            <div><p class="text-gray-600 ">© 2024 Kinetic Communications LLP
+                    · <span
+                        class="underline">Privacy
+                        Policy</span></p></div>
         </footer>
     </body>
 </html>
